@@ -5,9 +5,9 @@
 		<listener
 			class-name="com.api.listeners.ListenerClass" />
 	</listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="APITest">
     <classes>
-      <class name="com.api.test.UserTestCases2"/>
+      <class name="com.api.test.UserTestCases"/>
       <!--<class name="com.api.test.DataDrivenTests"/ -->
     </classes>
   </test> <!-- Test -->

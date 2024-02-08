@@ -15,6 +15,7 @@ public class UserEndPoints2 {
 
 		// ResourceBundle is a special class in java to read the properties file
 		// Specify the name of properties file inside the getBundle method
+		//By default it will take the file inside the test/resources folder
 		ResourceBundle routes = ResourceBundle.getBundle("routes");
 		return routes;
 	}
